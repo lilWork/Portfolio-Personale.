@@ -406,8 +406,9 @@ img{vertical-align: bottom}
 }
 
 .iconesocial{
+    margin-left: -20px;
     padding-top: 20px;
-    width: 40%;
+    width: 70%;
 }
 
 .flexboxcolonna3{
