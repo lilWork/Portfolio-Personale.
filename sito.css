@@ -158,6 +158,12 @@ p.customfont {
     color: rgb(203, 194, 194);
 
 }
+@media screen and (max-width: 992px){
+    #paragrafo{
+        font-size: 95%;
+        
+    }
+}
 #img-div {
     size: 80%;
     text-align: center;
@@ -308,12 +314,15 @@ a:link, a:visited {
 }
 @media screen and (max-width: 992px){
     #flexboximmagini{
-       
+        
+      
         flex-direction: column;
         align-items: center;
     }
     .flexboxcolonna{
-        margin-top: 60px;
+        align-items: center;
+        width: 40%;
+        margin-top: 40px;
     }
 }
 .rettangolo{
@@ -358,6 +367,12 @@ color: rgb(0, 107, 159);
     flex-direction: column;
     justify-content: space-evenly;
 
+}
+@media screen and (max-width: 992px){
+    .flexboxcolonna{
+        width: 40%;
+        align-items: center;
+    }
 }
 .testodelorean{
     font-weight:300;
@@ -410,7 +425,13 @@ img{vertical-align: bottom}
     padding-top: 20px;
     width: 70%;
 }
-
+@media screen and (max-width: 992px){
+    .iconesocial{
+        width: 25%;
+        margin-left: 25px;
+        
+    }
+}
 .flexboxcolonna3{
     display: flex;
     flex-direction: column;
