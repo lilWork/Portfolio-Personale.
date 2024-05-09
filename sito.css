@@ -160,7 +160,9 @@ p.customfont {
 }
 @media screen and (max-width: 992px){
     #paragrafo{
-        font-size: 95%;
+
+        font-weight: 400;
+        font-size: 90%;
         
     }
 }
@@ -200,6 +202,7 @@ p.customfont {
 }
 @media screen and (max-width: 992px){
     #footers{
+        font-weight: 700;
         font-size: 60%;
         line-height: 60px;
     }
